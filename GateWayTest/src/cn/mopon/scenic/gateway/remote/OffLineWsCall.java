@@ -1,5 +1,5 @@
 /*     */ package cn.mopon.scenic.gateway.remote;
-/*     */ 
+/*     */  // this is hostA changed
 /*     */ import cn.mopon.scenic.gateway.constant.ResponseConstants;
 /*     */ import cn.mopon.scenic.gateway.constant.TransactionNo;
 /*     */ import cn.mopon.scenic.gateway.service.IWSTicketService;
@@ -21,13 +21,13 @@
 /*     */ import org.slf4j.LoggerFactory;
 /*     */ 
 /*     */ public class OffLineWsCall extends RemoteServer
-/*     */ {
+/*     */ {  
 /*  36 */   private static final Logger logger = LoggerFactory.getLogger(OffLineWsCall.class);
 /*     */ 
 /*  38 */   private static volatile OffLineWsCall offLineWsCall = null;
-/*     */ 
+/*     */   
 /*  40 */   private IWSTicketService wsTicketService = new WSTicketServiceImpl();
-/*     */ 
+/*     */   
 /*     */   public static OffLineWsCall getSingleton()
 /*     */   {
 /*  56 */     if (offLineWsCall == null) {

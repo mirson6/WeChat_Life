@@ -10,8 +10,8 @@
 /*     */ import org.apache.commons.httpclient.params.HttpConnectionManagerParams;
 /*     */ import org.apache.commons.httpclient.params.HttpMethodParams;
 /*     */ import org.slf4j.Logger;
-/*     */ import org.slf4j.LoggerFactory;
-/*     */ 
+/*     */ import org.slf4j.LoggerFactory; 
+/*     */  
 /*     */ public class OnLineHttpCall extends RemoteServer
 /*     */ {
 /*  33 */   private static final Logger logger = LoggerFactory.getLogger(OnLineHttpCall.class);

@@ -4,7 +4,7 @@
 /*     */ {
 /*  14 */   INIT_TERMINAL, 
 /*     */ 
-/*  19 */   USER_LOGIN, 
+/*  19 */   USER_LOGIN,   
 /*     */ 
 /*  24 */   QUERY_APPLICATION, 
 /*     */ 
