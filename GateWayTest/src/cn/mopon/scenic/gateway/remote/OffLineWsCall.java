@@ -1,7 +1,7 @@
 /*     */ package cn.mopon.scenic.gateway.remote;
 /*     */  // this is hostA changed HostA pust 2
 /*     */  // this is hostA changed new hostB
-
+ 
 // HOst B Add again
 /*     */ import cn.mopon.scenic.gateway.constant.ResponseConstants;
 /*     */ import cn.mopon.scenic.gateway.constant.TransactionNo;
