@@ -1,5 +1,5 @@
 /*     */ package cn.mopon.scenic.gateway.remote;
-/*     */  // this is hostA changed
+/*     */  // this is hostA changed HostA pust 2
 /*     */ import cn.mopon.scenic.gateway.constant.ResponseConstants;
 /*     */ import cn.mopon.scenic.gateway.constant.TransactionNo;
 /*     */ import cn.mopon.scenic.gateway.service.IWSTicketService;
@@ -19,7 +19,7 @@
 /*     */ import java.util.UUID;
 /*     */ import org.slf4j.Logger;
 /*     */ import org.slf4j.LoggerFactory;
-/*     */ 
+/*     */  // this is also hostA push
 /*     */ public class OffLineWsCall extends RemoteServer
 /*     */ {  
 /*  36 */   private static final Logger logger = LoggerFactory.getLogger(OffLineWsCall.class);
