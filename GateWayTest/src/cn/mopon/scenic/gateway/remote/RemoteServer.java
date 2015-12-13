@@ -16,7 +16,7 @@
 /* 25 */     String readModel = getNodeValue(packet, "ReadModel");
 /* 26 */     String mediaValue = null;
 /* 27 */     if (transactionCode.equals(TransactionNo.V_GATEWAY_CHECK.name()))
-/*    */     {
+/*    */     {  //test
 /* 29 */       mediaValue = getNodeValue(packet, "MediaValue");
 /*    */ 
 /* 31 */       if ((mediaValue.startsWith("001")) || ("4".equals(readModel))) {
