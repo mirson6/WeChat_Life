@@ -1,5 +1,5 @@
 /*     */ package cn.mopon.scenic.gateway.remote;
-/*     */ 
+/*     */ // this is the on line HttpCAll
 /*     */ import cn.mopon.scenic.gateway.Configuration;
 /*     */ import org.apache.commons.httpclient.DefaultHttpMethodRetryHandler;
 /*     */ import org.apache.commons.httpclient.HostConfiguration;
